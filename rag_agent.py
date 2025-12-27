@@ -23,7 +23,7 @@ import glob            # For finding files matching a pattern (e.g., "*.txt")
 from langchain.text_splitter import RecursiveCharacterTextSplitter  # Splits long text into chunks
 from langchain_community.document_loaders import TextLoader, PyPDFLoader  # Load .txt and .pdf files
 from langchain_community.embeddings import OllamaEmbeddings         # Generate embeddings using Ollama
-from langchain_community.vectorstores import Chroma                # Store/retrieve vectors in ChromaDB
+from langchain_chroma import Chroma                                 # Store/retrieve vectors in ChromaDB
 from langchain_community.llms import Ollama                        # Use local LLM via Ollama
 from langchain_core.prompts import ChatPromptTemplate             # Format prompts for the LLM
 from langchain_core.runnables import RunnablePassthrough          # Pass input through unchanged in chains
