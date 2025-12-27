@@ -1,0 +1,12 @@
+# Local data and DB
+data/
+chroma_db/
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# OS
+.DS_Store
+Thumbs.db
